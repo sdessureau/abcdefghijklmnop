@@ -7,6 +7,7 @@
     "Category": "essential - professional - enterpriese featureset",
     "Open Source": "Yes/No",
     "Cloud Service": "Yes/No",
+    "On Premises Installation": "Yes/No",
     "Cloud Service Hosted in Europe": "Yes/No/NA",
     "Commercial Support Available?": "Yes/No",
     "GraphQL API": "Yes/No",
@@ -32,6 +33,7 @@
     "Image Focalpoint support": "Can a focal point be set to images in order to apply smart cropping?",
     "Image Facedetection": "Can faces in images be detected and added to the metadata of the images?",
     "Optimized Image Encoding": "Is it possible to optimize images (e.g. WebP, Progressive JPEG)",
+    "Asset fingerprinting": "Can fingerprints of assets (image, video, audio) be generated in order to find similar assets?",
     "CDN Support": "Can Assets be distributed to a CDN in order to speed-up content delivery?",
     "Antivirus Scanning": "Can uploads be scanned via an antivirus system?",
     "Custom Binary Handler": "Is it possible to hook into the upload process to directly process uploaded assets (e.g. re-encode videos, shrink large images)?",
@@ -43,8 +45,12 @@
     "Import/Export": "Can the whole system or parts be exported and later imported?",
     "CLI": "Is there a CLI which can be used to interact with the System from the console?",
     "SDK [Java]": "Yes/No",
+    "SDK [C#]": "Yes/No",
+    "SDK [PHP]": "Yes/No",
     "SDK [JavaScript]": "Yes/No",
     "SDK [React]": "Yes/No",
+    "SDK [AngularJS]": "Yes/No",
+    "SDK [TypeScript]": "Yes/No",
     "Web Hooks": "Yes/No",
     "Eventbus": "Is there a websocket eventbus to which clients can connect in order to exchange messages or to get informed about content changes?",
     "Bulk Import": "Is there a feature for bulk imports?",
@@ -74,4 +80,4 @@
     "Content Migration": "Is it possible to automatically migrate contents if the underlying schema changes? (e.g. Change field type from number to string)",
     "Workflows": "Does the system support editing workflows?",
     "Special Features": "Noteworthy features"
-  }
+}
